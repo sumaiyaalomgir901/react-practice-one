@@ -36,3 +36,47 @@
     transform: rotate(360deg);
   }
 }
+.article {
+  background-color: lightpink;
+  border: 3px solid saddlebrown;
+  border-radius: 10px;
+  width: 60%;
+  margin: auto;
+  padding: 15px;
+}
+.blogs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  width: 90%;
+  margin: 30px auto;
+}
+.blog {
+  border: 3px solid green;
+  background-color: lightgreen;
+  border-radius: 10px;
+  padding: 15px;
+}
+.mobile {
+  background-color: lightskyblue;
+  border: 3px solid rgb(27, 181, 233);
+  padding: 20px;
+}
+.battery-btn {
+  background-color: lightskyblue;
+  border: 1px solid white;
+  padding: 10px 15px;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+}
+.todos-area {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+.users {
+  background-color: lightsteelblue;
+  border-radius: 10px;
+  padding: 20px;
+}
